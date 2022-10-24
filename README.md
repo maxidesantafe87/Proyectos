@@ -10,7 +10,7 @@ Replica en español de la documentacion JS: https://maxidesantafe87.github.io/Pr
 
 #######################
 
-Diseño Portafolio: https://maxidesantafe87.github.io/Proyectos/FinalDise%C3%B1o/index.html
+Diseño Portafolio: https://maxidesantafe87.github.io/Proyectos/FinalDiseño/index.html
 
 #######################
 
