@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Formulario.css" />
+  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Fomulario Solicitud de trabajo</h1>
+        <p id="description" class="description text-center">
+          Requisito: Conocimiento en programación.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nombre</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Ingresa tu nombre..."
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Correo</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Ingresa tu correo..."
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Edad<span class="clue">(años)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="18"
+            max="99"
+            class="form-control"
+            placeholder="Edad"
+          />
+        </div>
+        <div class="form-group">
+          <p>Nivel de estudios alcanzado</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Selecciona un</option>
+            <option value="primario">Primario</option>
+            <option value="secundario">Secundario</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Unviersitario</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Conocimientos de programación?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="avanzado"
+              type="radio"
+              class="input-radio"
+              checked
+            />Avanzado</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="medio"
+              type="radio"
+              class="input-radio"
+            />Medio</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="bajo"
+              type="radio"
+              class="input-radio"
+            />Bajo</label
+          >
+          
+        </div>
+
+        <div class="form-group">
+          <p>En que area te gustaria trabajar</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Selecciona una Opción</option>
+            <option value="frontEnd">Front-end </option>
+            <option value="backEnd">back-End</option>
+            <option value="fullStack">Full-Stack</option>
+            <option value="dataScience">Data Science</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Marca en cuales tiene conocimiento.
+            <span class="clue">(Todas las que sepas)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Proyectos Front-End</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Proyectos Back-End</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="javaScript"
+              type="checkbox"
+              class="input-checkbox"
+            />JavaScript</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="css"
+              type="checkbox"
+              class="input-checkbox"
+            />CSS</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="html"
+              type="checkbox"
+              class="input-checkbox"
+            />HTML</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="python"
+              type="checkbox"
+              class="input-checkbox"
+            />PYTHON</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="mysql"
+              type="checkbox"
+              class="input-checkbox"
+            />MYSQL</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="go"
+              type="checkbox"
+              class="input-checkbox"
+            />GO</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Swift"
+              type="checkbox"
+              class="input-checkbox"
+            />Swift</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="tipoC"
+              type="checkbox"
+              class="input-checkbox"
+            />C#</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="visualBasic"
+              type="checkbox"
+              class="input-checkbox"
+            />Visual Basic</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Algo que nos queres contar?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="ingresa aca..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Enviar
+          </button>
+        </div>
+        <footer>  <h6 align="center">MGZ @ 2022</h6></footer>
+      </form>
+    </div>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
