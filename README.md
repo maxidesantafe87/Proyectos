@@ -1,5 +1,4 @@
-# Proyectos
-Proyectos Realizados con html - css
+# Proyectos para la Certificacion en - "Diseño Web Responsivo Legado"
 
 Web Estatica: https://maxidesantafe87.github.io/Proyectos/WebEstatica/index.html
 
@@ -9,4 +8,5 @@ Web Estatica de comercio: https://maxidesantafe87.github.io/Proyectos/MotosCandi
 
 Replica en español de la documentacion JS: https://maxidesantafe87.github.io/Proyectos/JSDocumentacion/index.html
 
+#######################
 
