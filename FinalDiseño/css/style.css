@@ -122,12 +122,12 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
+  background: var(--main-blue);proyecto
 }
 
 
 
-.welcome-section {
+.seccion-bienvenida {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,35 +138,35 @@ img {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
-.welcome-section > p {
+.seccion-bienvenida > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
   color: var(--main-red);
 }
 
-/* Projects section */
+/* proyectos section */
 
-.projects-section {
+.seccion-proyecto {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
 }
 
-.projects-section-header {
+.seccion-proyecto-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
 }
 
 @media (max-width: 28.75em) {
-  .projects-section-header {
+  .seccion-proyecto-header {
     font-size: 4rem;
   }
 }
 
 
-.projects-grid {
+.proyectos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
@@ -177,16 +177,16 @@ img {
 }
 
 @media (max-width: 30.625em) {
-  .projects-section {
+  .seccion-proyecto {
     padding: 6rem 1rem;
   }
 
-  .projects-grid {
+  .proyectos-grid {
     grid-template-columns: 1fr;
   }
 }
 
-.project {
+.proyecto {
   background: var(--main-gray);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
@@ -197,17 +197,17 @@ img {
   transition: color 0.3s ease-out;
 }
 
-.project:hover .code {
+.proyecto:hover .code {
   color: #ff7f50;
 }
 
-.project-image {
+.proyecto-image {
   height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
 }
 
-.project-title {
+.proyecto-title {
   font-size: 2rem;
   padding: 2rem 0.5rem;
 }
@@ -238,9 +238,9 @@ img {
   transition: transform 0.3s ease-out;
 }
 
-/* Contact section */
+/* contacto section */
 
-.contact-section {
+.seccion-contactoo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -252,21 +252,21 @@ img {
   background: var(--main-gray);
 }
 
-.contact-section-header > h2 {
+.seccion-contactoo-header > h2 {
   font-size: 6rem;
 }
 
 @media (max-width: 28.75em) {
-  .contact-section-header > h2 {
+  .seccion-contactoo-header > h2 {
     font-size: 4rem;
   }
 }
 
-.contact-section-header > p {
+.seccion-contactoo-header > p {
   font-style: italic;
 }
 
-.contact-links {
+.contacto-links {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -275,13 +275,13 @@ img {
   flex-wrap: wrap;
 }
 
-.contact-details {
+.contacto-details {
   font-size: 2.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
 
-.contact-details:hover {
+.contacto-details:hover {
   transform: translateY(8px);
 }
 
