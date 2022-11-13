@@ -168,12 +168,13 @@
           ><i class="fab fa-github"></i> GitHub</a
         >
         <a
-          href="https://twitter.com/zarate_ok"
+          href="https://twitter.com/zarate_ok/"
           target="_blank"
           class="btn contact-details"
-          ><i class="fab fa-twitter"></i> Twitter</a>
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
        
-       
+        >
         <a href="https://api.whatsapp.com/send?phone=+543425789060" class="btn contact-details"
           ><i class="fas fa-mobile-alt"></i> Contacto</a
         >
@@ -187,7 +188,7 @@
         Este portafolio no es real. Es un trabajo practico.
       </p>
       <p>
-        &copy; Created for
+        &copy; Diseñado por
         <a href="https://github.com/maxidesantafe87/Proyectos" target="_blank"
           >MGZ @ 2022 <i class="fab fa-free-code-camp"></i
         ></a>
@@ -197,6 +198,6 @@
     </footer>
 
 
-<script type="text/javascript" src="js/script.js"></script>
+</script><script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
